@@ -1,17 +1,19 @@
-package com.total.received.appointments.GetTotalReceivedAppointments.model;
+package com.appointment.receiver.status.Appointment.Receiver.Status.model;
+
+import java.math.BigInteger;
 
 public class CustomResponse {
 
-    private int totalRecResponse;
+    private BigInteger totalRecResponse;
 
     public CustomResponse() {
     }
 
-    public int getTotalRecResponse() {
+    public BigInteger getTotalRecResponse() {
         return totalRecResponse;
     }
 
-    public void setTotalRecResponse(int totalRecResponse) {
+    public void setTotalRecResponse(BigInteger totalRecResponse) {
         this.totalRecResponse = totalRecResponse;
     }
 }

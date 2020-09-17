@@ -1,4 +1,4 @@
-package com.total.received.appointments.GetTotalReceivedAppointments.model;
+package com.appointment.receiver.status.Appointment.Receiver.Status.model;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

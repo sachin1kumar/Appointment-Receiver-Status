@@ -1,4 +1,4 @@
-package com.get.appointment.limit.GetAppointmentLimit.model;
+package com.appointment.receiver.status.Appointment.Receiver.Status.model;
 
 import java.math.BigInteger;
 

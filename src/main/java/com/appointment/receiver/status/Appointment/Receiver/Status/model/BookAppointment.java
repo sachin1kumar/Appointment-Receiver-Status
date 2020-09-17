@@ -1,4 +1,4 @@
-package com.total.received.appointments.GetTotalReceivedAppointments.model;
+package com.appointment.receiver.status.Appointment.Receiver.Status.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

@@ -1,5 +1,4 @@
-package com.get.appointment.limit.GetAppointmentLimit.model;
-
+package com.appointment.receiver.status.Appointment.Receiver.Status.model;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
@@ -23,14 +22,6 @@ public class DoctorAppointments {
 
     public DoctorAppointments() {
 
-    }
-
-    public BigInteger getId() {
-        return doctor_id;
-    }
-
-    public void setId(BigInteger id) {
-        this.doctor_id = id;
     }
 
     public boolean isEnable_disable() {
@@ -63,5 +54,13 @@ public class DoctorAppointments {
 
     public void setAppointment_date(Date appointment_date) {
         this.appointment_date = appointment_date;
+    }
+
+    public BigInteger getDoctor_id() {
+        return doctor_id;
+    }
+
+    public void setDoctor_id(BigInteger doctor_id) {
+        this.doctor_id = doctor_id;
     }
 }
